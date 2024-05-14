@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -81,25 +81,25 @@ public class Pistol : MonoBehaviour
 
             // Perform the shoot action
             RaycastHit hit;
-            //if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, shootRange))
-            //{
+            if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, shootRange))
+            {
                 // Check if the hit object has the "enemy" tag
-                //if (hit.collider.CompareTag("Enemy"))
-                //{
+                if (hit.collider.CompareTag("Enemy"))
+                {
                     // Get the EnemyHealth component from the hit object
-                    //EnemyHealth enemyHealth = hit.collider.GetComponent<EnemyHealth>();
+                    EnemyHealth enemyHealth = hit.collider.GetComponent<EnemyHealth>();
 
                     // Check if the enemy has the EnemyHealth component
-                    //if (enemyHealth != null)
-                    //{
+                    if (enemyHealth != null)
+                    {
                         // Apply damage to the enemy
-                        //enemyHealth.TakeDamage(damager); // Replace 'damager' with the actual damage value.
-                    //}
-                //}
+                        enemyHealth.TakeDamage(damager); // Replace 'damager' with the actual damage value.
+                    }
+                }
 
                 // Instantiate impact effect at the hit point
-                //Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-            //}
+                Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+            }
 
             // Instantiate the empty cartridge
             GameObject cartridge = Instantiate(cartridgePrefab, cartridgeEjectionPoint.position, cartridgeEjectionPoint.rotation);
