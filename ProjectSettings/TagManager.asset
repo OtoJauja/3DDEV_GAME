@@ -9,6 +9,7 @@ TagManager:
   - Carpet
   - Tile
   - Wood
+  - Enemy
   layers:
   - Default
   - TransparentFX
