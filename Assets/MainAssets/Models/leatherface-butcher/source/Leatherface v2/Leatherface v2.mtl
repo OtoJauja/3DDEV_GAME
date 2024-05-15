@@ -1,0 +1,48 @@
+newmtl Model001_Material001
+map_Kd LeatherFace_C1_Diff.png
+map_bump LeatherFace_C1_Norm.png
+
+newmtl Model001_Material002
+map_Kd LeatherFace_C2_Diff.png
+map_bump LeatherFace_C2_Norm.png
+
+newmtl Model001_Material003
+map_Kd LeatherFace_C2_Diff.png
+map_bump LeatherFace_C2_Norm.png
+
+newmtl Model001_Material004
+map_Kd LeatherFace_C1_Diff.png
+map_bump LeatherFace_C1_Norm.png
+
+newmtl Model001_Material005
+map_Kd LeatherFace_C1_Diff.png
+map_bump LeatherFace_C1_Norm.png
+
+newmtl Model001_Material006
+map_Kd LeatherFace_C1_Diff.png
+map_bump LeatherFace_C1_Norm.png
+
+newmtl Model001_Material007
+map_Kd LeatherFace_C1_Diff.png
+map_bump LeatherFace_C1_Norm.png
+
+newmtl Model001_Material008
+map_Kd CHAR_EyesMouth_Diff.png
+map_bump CHAR_EyesMouth_Norm.png
+
+newmtl Model001_Material009
+map_Kd LeatherFace_C1_Diff.png
+map_bump LeatherFace_C1_Norm.png
+
+newmtl Model001_Material010
+map_Kd LeatherFace_C1_Diff.png
+map_bump LeatherFace_C1_Norm.png
+
+newmtl Model001_Material011
+map_Kd LeatherFace_Mallet_Diff.png
+map_bump LeatherFace_Mallet_Norm.png
+
+newmtl Model001_Material012
+map_Kd Leatherface_Chainsaw_Diff.png
+map_bump Leatherface_Chainsaw_Norm.png
+
