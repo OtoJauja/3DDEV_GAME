@@ -431,7 +431,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1511558530}
+      - m_Target: {fileID: 1511558535}
         m_TargetAssemblyTypeName: DeathMenu, Assembly-CSharp
         m_MethodName: B_QuitGame
         m_Mode: 1
@@ -979,6 +979,7 @@ GameObject:
   - component: {fileID: 1511558531}
   - component: {fileID: 1511558530}
   - component: {fileID: 1511558534}
+  - component: {fileID: 1511558535}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1182,6 +1183,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1511558535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511558528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 601851992be4dcf439ca34fa87cd415b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: MainScene
 --- !u!1 &1620023680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1402,7 +1416,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1511558530}
+      - m_Target: {fileID: 1511558535}
         m_TargetAssemblyTypeName: DeathMenu, Assembly-CSharp
         m_MethodName: B_LoadScene
         m_Mode: 1
