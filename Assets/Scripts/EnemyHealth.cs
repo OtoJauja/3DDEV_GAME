@@ -28,8 +28,7 @@ public class EnemyHealth : MonoBehaviour
     private void Die()
     {
 
-
-        // For example, you might destroy the enemy GameObject:
+        //destroy the enemy GameObject:
         gameObject.GetComponent<Animator>().SetBool("Death", true);
     }
 }

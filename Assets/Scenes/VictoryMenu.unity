@@ -398,14 +398,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: b7b2be4379f9e2e48b90dd890c2b3cfa, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -751,7 +751,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441dcf5117658d946a4626f95956e665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: MainScene
 --- !u!114 &1511558531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -825,12 +824,12 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 60eb28544f8623246b748775554b4e02, type: 3}
-  m_Resource: {fileID: 8300000, guid: 60eb28544f8623246b748775554b4e02, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0e050bfc5f90b3342bf7e63b66004583, type: 3}
+  m_Resource: {fileID: 8300000, guid: 0e050bfc5f90b3342bf7e63b66004583, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1170,7 +1169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.18867922, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
