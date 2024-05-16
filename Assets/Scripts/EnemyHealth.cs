@@ -27,8 +27,7 @@ public class EnemyHealth : MonoBehaviour
     // Function to handle the enemy's death.
     private void Die()
     {
-        // Perform any death-related actions here, such as playing death animations, spawning effects, or removing the enemy from the scene.
-        // You can customize this method based on your game's requirements.
+
 
         // For example, you might destroy the enemy GameObject:
         gameObject.GetComponent<Animator>().SetBool("Death", true);
